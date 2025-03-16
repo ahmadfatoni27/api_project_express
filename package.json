@@ -1,0 +1,27 @@
+{
+  "name": "api_project",
+  "version": "1.0.0",
+  "description": "api_project_0.1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmad fatoni",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.14.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "standard": "^17.1.2"
+  }
+}
